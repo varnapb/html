@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+body{
+    background-image: url( "../image/book2.jpg");
+    background-size: cover;
+}
+header{
+    background-color: black;
+    height: 100px;
+    
+}
+.navigation{
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nagivation a:hover{
+    background-color: teal;
+    color: black;
+}
+#logo{
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+/* aside styling starts*/
+.side{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 100px;
+    /*border: 2px solid red;*/
+    float: left;
+    
+
+}
+.side li{
+    padding: 2px;
+}
+/* aside styling ends*/
+
+
+/*Login styling starts*/
+.my_login{
+    border: 2px solid white;
+    float: right;
+    margin-top: 60px;
+    background-color: beige;
+    margin-right: 30px;
+    height: 15em;
+    padding: 30px;
+    margin-right: 20px;
+}
+.my_login h2{
+    text-align: center;
+}
+
+   
+
+#login{
+    background-color: dodgerblue;
+    width:100%;
+    border: none;
+    color: white;
+    height: 1.5em;
+
+}
+/*Login styling ends*/
+
+/*Courses styling stats*/
+.container {
+   
+     margin-top: 450px;
+     margin-left: 60px;
+    
+} 
+.p1_box{
+    border: 3px solid white;
+    float: left;
+    width: 22%;
+    margin-left: 5px;
+    padding: 5px;
+    background-color: rgb(234, 141, 55);
+    height: 4.5cm;
+}
+.p2_box{
+    border: 3px solid white;
+    float: left;
+    width: 22%;
+    margin-left: 5px;
+    padding: 5px;
+    background-color: rgb(204, 98, 98);
+    height: 4.5cm;
+}
+.p3_box{
+    border: 3px solid white;
+    float: left;
+    width: 22%;
+    margin-left: 5px;
+    padding: 5px;
+    background-color: rgb(232, 137, 225);
+    height: 4.5cm;
+}
+.p4_box{
+    border: 3px solid white;
+    float: left;
+    width: 22%;
+    margin-left: 5px;
+    padding: 5px;
+    background-color: rgb(186, 114, 114);
+    height: 4.5cm;
+}
+
+
+/*Courses styling stats*/
+
